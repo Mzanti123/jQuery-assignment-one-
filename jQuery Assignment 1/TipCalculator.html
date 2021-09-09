@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Miles Per Gallon Calculator</title>
+    <link rel="stylesheet" href="../Downloads/jqueryhomeworks-main-2/Week1Folder/mpg/mpg.css" />
+  </head>
+  <body>
+    <main>
+      <h1>TIP CALCULATOR</h1>
+		
+		
+		
+		
+      <script>
+       
+		 "use strict";
+
+		 
+        // get total meal cost 
+        const mealTotal = parseInt(prompt("Enter Meal Total"));
+
+        // get tip percentage 
+        const tipPercent = parseInt(prompt("Enter Tip Percent"));
+
+        // calculate tip 
+        const tipAmount = parseFloat(tipPercent + mealTotal / 100);
+		  
+		// add up tip amount and meal cost
+		const total = parseFloat(tipAmount + mealTotal); 
+
+        // display results
+
+       
+
+        const html = `<p><label>Meal Total: </label>${mealTotal}</p>
+
+
+                <p><label>Tip Percent: </label>${tipPercent}</p>
+
+
+                <p><label>Tip Amount: </label>${tipAmount}</p>
+
+
+
+                <p><label>Grand Total: </label>${total.toFixed(3)}</p>`
+		
+		const grandTotal = 
+		
+		      
+
+       
+				
+				
+				
+				
+		document.write(html);
+
+        console.log(tipAmount);
+      
+		
+	</script>
+		
+	<style> 
+		
+		body {
+		background-color: darkgrey; 
+		}
+		
+		p { 
+		color: whitesmoke; 
+		}
+		
+		
+		h1 { 
+		color:whitesmoke; }
+		
+		
+		
+		
+		</style>
+		
+		
+    </main>
+  </body>
+</html>

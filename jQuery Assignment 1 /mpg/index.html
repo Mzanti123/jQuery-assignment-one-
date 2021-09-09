@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Dinner Cost Calculator</title>
+    <link rel="stylesheet" href="mpg.css" />
+  </head>
+  <body>
+	 
+    <main>
+      <h1>The Dinner Cost Calculator</h1>
+      <script>
+        "use strict";
+
+        // get miles driven from user
+        const cost = parseInt(prompt("Enter cost of meal"));
+
+        // get gallons used from user
+        const tip = parseInt(prompt("Enter percent tip"));
+
+        // calculate mpg
+        const mpg = parseFloat(cost / percentage);
+
+        // display results
+
+        //try to place const html before miles - note the error.
+
+        const html = `<p><label>Miles: </label>${miles}</p>
+
+                <p><label>Gallons: </label>${gallons}</p>
+                <p><label>MPG: </label>${mpg.toFixed(2)}</p>`;
+
+        document.write(html);
+
+        console.log(miles);
+      </script>
+    </main>
+  </body>
+</html>
